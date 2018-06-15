@@ -1,0 +1,14 @@
+{
+  "name": "ariane",
+  "version": "0.1.0",
+  "description": "Helps you find your way out of the labyrinth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "Julien Bérubé",
+  "license": "ISC"
+}
