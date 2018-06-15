@@ -13,7 +13,7 @@
   ],
   "author": "Julien Bérubé",
   "license": "ISC",
-  "repository": "git@github.com:jberube/ariadne.git",
+  "repository": "git@github.com:jberube/ariane.git",
   "devDependencies": {
     "nodemon": "^1.17.5",
     "run-series": "^1.1.8",
