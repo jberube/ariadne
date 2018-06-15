@@ -4,11 +4,22 @@
   "description": "Helps you find your way out of the labyrinth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/**/*.js",
+    "test:nyan": "nodemon -q -x \"tape test/**/*.js | tap-nyan\"",
+    "test:spec": "nodemon -q -x \"tape test/**/*.js | tap-spec\""
   },
   "keywords": [
     "log"
   ],
   "author": "Julien Bérubé",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "run-series": "^1.1.8",
+    "tape": "^4.9.1"
+  },
+  "optionalDependencies": {
+    "tap-nyan": "^1.1.0",
+    "tap-spec": "^5.0.0"
+  }
 }
