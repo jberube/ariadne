@@ -1,6 +1,6 @@
 {
   "name": "ariane",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Helps you find your way out of the labyrinth",
   "main": "index.js",
   "scripts": {
