@@ -15,5 +15,5 @@ module.exports.setupFakeConsole = function setupFakeConsole() {
 }
 
 module.exports.resetConsole = function () {
-    Object.entries(originalMethods).map(entry => console[entry[0]] = entry[1]);
+    Object.keys(originalMethods).map(key => console[key] = originalMethods[key]);
 };
