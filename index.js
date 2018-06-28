@@ -1,8 +1,8 @@
 module.exports = require('./lib/core');
 
-const transports = require('./lib/transports');
-Object.keys(transports).forEach(key => {
-    module.exports[key] = transports[key];
-});
+module.exports.BaseTransport = require('./lib/transports/base');
+module.exports.ConsoleTransport = require('./lib/transports/console');
+module.exports.StreamTransport = require('./lib/transports/stream');
+module.exports.MockTransport = require('./lib/transports/mock');
 
 module.exports.Ariane = module.exports.Logger = require('./lib/logger');
